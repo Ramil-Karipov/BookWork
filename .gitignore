@@ -1,5 +1,5 @@
-.idea/
-.gitignore/
+*.idea/
+*.gitignore/
 *.iml/
 out/
 !**/src/main/**/out/
