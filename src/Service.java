@@ -115,7 +115,7 @@ public class Service {
     }
 
     public void findAverageSalaryOfDepartment(int department) {
-        double sum = 0;
+        int sum = 0;
         int employeesOfDepartment = 0;
         for (int i = 0; i < size; i++) {
             if (employees[i].getDepartment() == department) {
@@ -147,7 +147,8 @@ public class Service {
     public void findWorkersWithSalaryBelowParameter(int salary) {
         for (int i = 0; i < size; i++) {
             if (employees[i].getSalary() < salary) {
-                System.out.println("Сотрудник с зарплатой меньше " + salary + ": " + "id " + employees[i].getId() + ", " + employees[i].getFullName() + ", зарплата " + employees[i].getSalary() + " рублей");
+                System.out.println("Сотрудник с зарплатой меньше " + salary + ": " + "id " + employees[i].getId() + ", "
+                        + employees[i].getFullName() + ", зарплата " + employees[i].getSalary() + " рублей");
             }
         }
     }
@@ -156,7 +157,8 @@ public class Service {
     public void findWorkersWithSalaryHigherParameter(int salary) {
         for (int i = 0; i < size; i++) {
             if (employees[i].getSalary() >= salary) {
-                System.out.println("Сотрудник с зарплатой больше " + salary + ": " + "id " + employees[i].getId() + ", " + employees[i].getFullName() + ", зарплата " + employees[i].getSalary() + " рублей");
+                System.out.println("Сотрудник с зарплатой больше " + salary + ": " + "id " + employees[i].getId() + ", "
+                        + employees[i].getFullName() + ", зарплата " + employees[i].getSalary() + " рублей");
             }
         }
     }
