@@ -143,7 +143,6 @@ public class Service {
         }
     }
 
-    //    реализовал метод по поиску сотрудников с зарплатой ниже определенного числа
     public void findWorkersWithSalaryBelowParameter(int salary) {
         for (int i = 0; i < size; i++) {
             if (employees[i].getSalary() < salary) {
@@ -153,7 +152,6 @@ public class Service {
         }
     }
 
-    //    реализовал метод по поиску сотрудников с зарплатой выше определенного числа
     public void findWorkersWithSalaryHigherParameter(int salary) {
         for (int i = 0; i < size; i++) {
             if (employees[i].getSalary() >= salary) {
