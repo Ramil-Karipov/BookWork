@@ -43,9 +43,9 @@ public class Main {
         System.out.println();
         service.printAllInformationOfDepartment(1);
         System.out.println();
-        service.findWorkersWithSalaryBelowParameter(60_000);
+        service.findWorkersWithSalaryBelowParameter(60000);
         System.out.println();
-        service.findWorkersWithSalaryHigherParameter(45_000);
+        service.findWorkersWithSalaryHigherParameter(45000);
     }
 }
 
